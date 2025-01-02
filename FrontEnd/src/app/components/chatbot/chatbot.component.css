@@ -1,0 +1,17 @@
+.messages {
+  max-height: 50rem;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.fixed-bottom {
+  margin: 0;
+  width: 100%;
+  left: 0;
+}
+
+.card.fixed-bottom .card-body {
+  padding: 10px;
+}
