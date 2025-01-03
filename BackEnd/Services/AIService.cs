@@ -9,10 +9,10 @@ public class AIService(IGeminiClient geminiClient)
     public async Task<string> SendAIAsync(string message)
     {
         string bodyMessage = @$"
-            nossa conversa esta limitada apenas a linguagens de programação.
+            Nossa conversa esta limitada apenas a linguagens de programação.
             Caso eu mesmo me refira a outro assunto abaixo você pode ignorar e dizer que não entendeu.
-
-            portanto diga-me: {message}
+            
+            Portanto diga-me: {message}
 
         ";
         var res = await _geminiClient.TextPrompt(bodyMessage);

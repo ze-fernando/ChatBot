@@ -12,8 +12,16 @@
             [ngClass]="{
               'bg-light text-dark': msg.sender === 'bot',
               'bg-primary text-white': msg.sender === 'user'
-            }">
+            }"
+            [innerHTML]="renderMarkdown(msg.text)">
             {{ msg.text }}
+          </div>
+        </div>
+      }
+      @if (isBotTyping) {
+        <div class="d-flex mb-2">
+          <div class="p-2 rounded bg-light text-dark">
+            <span class="typing-indicator">...</span>
           </div>
         </div>
       }
