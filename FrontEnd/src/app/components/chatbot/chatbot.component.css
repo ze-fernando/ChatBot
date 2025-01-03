@@ -8,8 +8,9 @@
 
 .fixed-bottom {
   margin: 0;
-  width: 100%;
-  left: 0;
+  width: 70%;
+  height: 15%;
+  left: 15%;
 }
 
 .card.fixed-bottom .card-body {
