@@ -1,5 +1,3 @@
-Aqui está o README atualizado, considerando que o projeto não utiliza WebSockets, banco de dados ou Docker:  
-
 # Chatbot Fullstack com .NET, Angular e Google Gemini
 
 Este projeto é um chatbot completo que combina um backend em .NET, um frontend em Angular e a tecnologia de IA do Google Gemini para processar e responder mensagens de forma inteligente.
